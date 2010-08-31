@@ -17,6 +17,8 @@ filetype plugin indent on         " Turn on file type detection.
 
 runtime macros/matchit.vim        " Load the matchit plugin.
 
+set encoding=utf-8                " Default encoding
+
 set showcmd                       " Display incomplete commands.
 set showmode                      " Display the mode you're in.
 
@@ -32,6 +34,11 @@ set smartcase                     " But case-sensitive if expression contains a 
 
 set number                        " Show line numbers.
 set ruler                         " Show cursor position.
+set cursorline                    " Highlight the current line
+
+" Display tabs and trailing spaces
+set list
+set listchars=tab:»\ ,trail:·,nbsp:·
 
 set incsearch                     " Highlight matches as you type.
 set hlsearch                      " Highlight matches.
@@ -49,13 +56,26 @@ set virtualedit=all               " Allow the cursor to go in to "invalid" place
 
 set nobackup                      " Don't make a backup before overwriting a file.
 set nowritebackup                 " And again.
-set directory=$HOME/.vim/tmp//,.  " Keep swap files in one location
+set directory=/tmp                " Keep swap files in one location
 
 set tabstop=2                     " Global tab width.
 set shiftwidth=2                  " And again, related.
 set expandtab                     " Use spaces instead of tabs
 
+set nowrap                        " Turn off word wrapping
+
 set laststatus=2                  " Show the status line all the time
+
+set confirm                       " confirm on quit, etc.
+set autoread                      " automatically read changes from disk
+
+" Folding settings
+set foldmethod=indent             " indent based on syntax
+set foldnestmax=3                 " deepest fold is 3 levels
+set foldlevel=3
+set nofoldenable                  " dont fold by default
+
+set matchpairs+=<:>               " add < and > to the chars thac can be navigated with %
 
 " Useful status information at bottom of screen
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
@@ -86,10 +106,6 @@ map <leader>tm :tabmove
 
 " Uncomment to use Jamis Buck's file opening plugin
 "map <Leader>t :FuzzyFinderTextMate<Enter>
-
-" Automatic fold settings for specific files. Uncomment to use.
-autocmd FileType ruby setlocal foldmethod=syntax
-autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
 
 " For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
 " autocmd BufNewFile,BufRead *_spec.rb compiler rspec
