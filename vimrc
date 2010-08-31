@@ -10,6 +10,7 @@
 
 set nocompatible                  " Must come first because it changes other options.
 
+silent! call pathogen#helptags()
 silent! call pathogen#runtime_append_all_bundles()
 
 syntax enable                     " Turn on syntax highlighting.
@@ -103,6 +104,14 @@ map <leader>tp :tabprevious<cr>
 map <leader>tf :tabfirst<cr>
 map <leader>tl :tablast<cr>
 map <leader>tm :tabmove
+
+" NERDTree
+let g:NERDChristmasTree = 1
+let g:NERDTreeMapOpenSplit = "s"
+let g:NERDTreeMapOpenVSplit = "v"
+
+map <silent> <F2> <ESC>:NERDTreeToggle<CR>
+nmap <silent> <leader>ft :NERDTreeFind<cr>
 
 " Uncomment to use Jamis Buck's file opening plugin
 "map <Leader>t :FuzzyFinderTextMate<Enter>
