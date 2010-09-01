@@ -1,0 +1,17 @@
+Psyho's VIM config
+
+INSTALLATION:
+
+1. Check out the repo somewhere (ex. ~/dotvim)
+2. Install dependencies by running install_dependencies.sh
+3. Create the symbolic links by running "cd; ~/dotvim/link_configs.py"
+4. Use git to check out the plugins:
+cd ~/dotvim
+git submodule init
+git submodule update
+5. PROFIT!
+
+Optional:
+Add
+alias g="gvim --remote-silent"
+to the .bashrc file.

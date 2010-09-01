@@ -63,8 +63,6 @@ set tabstop=2                     " Global tab width.
 set shiftwidth=2                  " And again, related.
 set expandtab                     " Use spaces instead of tabs
 
-set nowrap                        " Turn off word wrapping
-
 set laststatus=2                  " Show the status line all the time
 
 set confirm                       " confirm on quit, etc.
