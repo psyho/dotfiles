@@ -18,3 +18,4 @@ vim-makegreen - run tests from inside vim
 vim-rooter - make vim :cd into the first parent directory containing .git subdir
 vim-tcomment - toggle comments
 vim-unimpaired - some useful mappings, for example to swap code lines
+vim-conque - run a terminal/command inside a vim buffer
