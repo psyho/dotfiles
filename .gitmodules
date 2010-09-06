@@ -43,9 +43,6 @@
 [submodule "vim/bundle/mileszs-ack"]
 	path = vim/bundle/mileszs-ack
 	url = git://github.com/mileszs/ack.vim.git
-[submodule "vim/bundle/reinh-vim-makegreen"]
-	path = vim/bundle/reinh-vim-makegreen
-	url = git://github.com/reinh/vim-makegreen.git
 [submodule "vim/bundle/airblade-vim-rooter"]
 	path = vim/bundle/airblade-vim-rooter
 	url = git://github.com/airblade/vim-rooter.git
@@ -61,3 +58,6 @@
 [submodule "vim/bundle/tpope-vim-git"]
 	path = vim/bundle/tpope-vim-git
 	url = git://github.com/tpope/vim-git.git
+[submodule "vim/bundle/wincent-command-t"]
+	path = vim/bundle/wincent-command-t
+	url = git://github.com/wincent/Command-T.git
