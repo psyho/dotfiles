@@ -1,2 +1,20 @@
-pathogen
-NerdTree
+pathogen - allows plugins to be put in spearate directories, aka "bundles"
+NerdTree - displays a neat file explorer window
+csapprox - make gvim colorschemes work in console
+snipmate - TextMate-style snippets for VIM
+vim-autoclose - automatically close braces, quotes, etc.
+vim-endwise - wisely add 'end' in ruby
+vim-fugitive - vim-git integration
+vim-javascript - better syntax highlighiting and indenting for JS
+vim-markdown - syntax highlighting for markdown
+vim-matchit - better pair matching for the % command
+vim-rails - awesome vim-rails integration
+vim-repeat - repeat comnmands from plugins using .
+vim-ruby - ruby integration
+vim-surround - surrounding text with braces, quotes, html tags...
+vim-zoomwin - when maximizing the window it is possible to un-maximize it
+ack - use ack to search through files
+vim-makegreen - run tests from inside vim
+vim-rooter - make vim :cd into the first parent directory containing .git subdir
+vim-tcomment - toggle comments
+vim-unimpaired - some useful mappings, for example to swap code lines

@@ -1,3 +1,57 @@
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
 	url = http://github.com/scrooloose/nerdtree.git
+[submodule "vim/bundle/godlygeek-csapprox"]
+	path = vim/bundle/godlygeek-csapprox
+	url = git://github.com/godlygeek/csapprox.git
+[submodule "vim/bundle/msanders-snipmate"]
+	path = vim/bundle/msanders-snipmate
+	url = git://github.com/msanders/snipmate.vim.git
+[submodule "vim/bundle/townk-autoclose"]
+	path = vim/bundle/townk-autoclose
+	url = git://github.com/Townk/vim-autoclose.git
+[submodule "vim/bundle/tpope-endwise"]
+	path = vim/bundle/tpope-endwise
+	url = git://github.com/tpope/vim-endwise.git
+[submodule "vim/bundle/tpope-fugitive"]
+	path = vim/bundle/tpope-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "vim/bundle/pangloss-vim-javascript"]
+	path = vim/bundle/pangloss-vim-javascript
+	url = git://github.com/pangloss/vim-javascript.git
+[submodule "vim/bundle/tpope-vim-markdown"]
+	path = vim/bundle/tpope-vim-markdown
+	url = git://github.com/tpope/vim-markdown.git
+[submodule "vim/bundle/vim-ruby"]
+	path = vim/bundle/vim-ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "vim/bundle/tpope-vim-repeat"]
+	path = vim/bundle/tpope-vim-repeat
+	url = http://github.com/tpope/vim-repeat.git
+[submodule "vim/bundle/tpope-vim-rails"]
+	path = vim/bundle/tpope-vim-rails
+	url = git://github.com/tpope/vim-rails.git
+[submodule "vim/bundle/edsono-vim-matchit"]
+	path = vim/bundle/edsono-vim-matchit
+	url = git://github.com/edsono/vim-matchit.git
+[submodule "vim/bundle/tpope-vim-surround"]
+	path = vim/bundle/tpope-vim-surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "vim/bundle/rphillips-vim-zoomwin"]
+	path = vim/bundle/rphillips-vim-zoomwin
+	url = git://github.com/rphillips/vim-zoomwin.git
+[submodule "vim/bundle/mileszs-ack"]
+	path = vim/bundle/mileszs-ack
+	url = git://github.com/mileszs/ack.vim.git
+[submodule "vim/bundle/reinh-vim-makegreen"]
+	path = vim/bundle/reinh-vim-makegreen
+	url = git://github.com/reinh/vim-makegreen.git
+[submodule "vim/bundle/airblade-vim-rooter"]
+	path = vim/bundle/airblade-vim-rooter
+	url = git://github.com/airblade/vim-rooter.git
+[submodule "vim/bundle/tsaleh-tcomment"]
+	path = vim/bundle/tsaleh-tcomment
+	url = git://github.com/tsaleh/vim-tcomment.git
+[submodule "vim/bundle/tpope-vim-unimpaired"]
+	path = vim/bundle/tpope-vim-unimpaired
+	url = git://github.com/tpope/vim-unimpaired.git
