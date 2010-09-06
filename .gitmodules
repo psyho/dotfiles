@@ -58,3 +58,6 @@
 [submodule "vim/bundle/rson-vim-conque"]
 	path = vim/bundle/rson-vim-conque
 	url = git://github.com/rson/vim-conque.git
+[submodule "vim/bundle/tpope-vim-git"]
+	path = vim/bundle/tpope-vim-git
+	url = git://github.com/tpope/vim-git.git
