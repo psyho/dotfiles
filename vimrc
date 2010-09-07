@@ -68,6 +68,10 @@ set laststatus=2                  " Show the status line all the time
 set confirm                       " confirm on quit, etc.
 set autoread                      " automatically read changes from disk
 
+" Make the 'cw' and like commands put a $ at the end instead of just deleting
+" the text and replacing it
+set cpoptions=ces$
+
 " Folding settings
 set foldmethod=indent             " indent based on syntax
 set foldnestmax=3                 " deepest fold is 3 levels

@@ -61,3 +61,6 @@
 [submodule "vim/bundle/wincent-command-t"]
 	path = vim/bundle/wincent-command-t
 	url = git://github.com/wincent/Command-T.git
+[submodule "vim/bundle/tpope-vim-ragtag"]
+	path = vim/bundle/tpope-vim-ragtag
+	url = git://github.com/tpope/vim-ragtag.git
