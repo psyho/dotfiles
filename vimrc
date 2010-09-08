@@ -72,6 +72,8 @@ set autoread                      " automatically read changes from disk
 " the text and replacing it
 set cpoptions=ces$
 
+set diffopt+=iwhite               " ignore whitespace in vimdiff
+
 " Folding settings
 set foldmethod=indent             " indent based on syntax
 set foldnestmax=3                 " deepest fold is 3 levels
@@ -95,7 +97,13 @@ else
   " Scheme
   colors railscasts
 endif
- 
+
+" set some different setting for the diff mode
+if &diff
+  colorscheme fu_patched " different scheme
+  set nonumber " no line numbers
+endif
+
 " Tab mappings.
 map <leader>tt :tabnew<cr>
 map <leader>te :tabedit

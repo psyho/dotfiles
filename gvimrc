@@ -7,3 +7,8 @@ set guioptions-=l
 set guioptions-=L
 set guioptions-=T
 set guioptions-=m
+
+
+if &diff
+  set guifont=Inconsolata\ 12       " Font family and font size.
+endif
