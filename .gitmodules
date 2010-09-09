@@ -43,9 +43,6 @@
 [submodule "vim/bundle/mileszs-ack"]
 	path = vim/bundle/mileszs-ack
 	url = git://github.com/mileszs/ack.vim.git
-[submodule "vim/bundle/airblade-vim-rooter"]
-	path = vim/bundle/airblade-vim-rooter
-	url = git://github.com/airblade/vim-rooter.git
 [submodule "vim/bundle/tsaleh-tcomment"]
 	path = vim/bundle/tsaleh-tcomment
 	url = git://github.com/tsaleh/vim-tcomment.git

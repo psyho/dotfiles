@@ -14,7 +14,6 @@ vim-ruby - ruby integration
 vim-surround - surrounding text with braces, quotes, html tags...
 vim-zoomwin - when maximizing the window it is possible to un-maximize it
 ack - use ack to search through files
-vim-rooter - make vim :cd into the first parent directory containing .git subdir
 vim-tcomment - toggle comments
 vim-unimpaired - some useful mappings, for example to swap code lines
 vim-conque - run a terminal/command inside a vim buffer
