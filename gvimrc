@@ -12,3 +12,9 @@ set guioptions-=m
 if &diff
   set guifont=Inconsolata\ 12       " Font family and font size.
 endif
+
+if has("gui_running")
+  " GUI is running or is about to start.
+  " Maximize gvim window.
+  set lines=999 columns=999
+endif
