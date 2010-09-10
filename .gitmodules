@@ -61,3 +61,6 @@
 [submodule "vim/bundle/tpope-vim-ragtag"]
 	path = vim/bundle/tpope-vim-ragtag
 	url = git://github.com/tpope/vim-ragtag.git
+[submodule "vim/bundle/ruby-snippets/snippets"]
+	path = vim/bundle/ruby-snippets/snippets
+	url = git://github.com/kaichen/vim-snipmate-ruby-snippets.git
