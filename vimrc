@@ -37,6 +37,9 @@ set number                        " Show line numbers.
 set ruler                         " Show cursor position.
 set cursorline                    " Highlight the current line
 
+set history=1000                  " remember more commands and search history
+set undolevels=1000               " use many muchos levels of undo
+
 " Display tabs and trailing spaces
 set list
 set listchars=tab:»\ ,trail:·,nbsp:·
@@ -60,15 +63,11 @@ set directory=/tmp                " Keep swap files in one location
 set tabstop=2                     " Global tab width.
 set shiftwidth=2                  " And again, related.
 set expandtab                     " Use spaces instead of tabs
-
+set shiftround                    " use multiple of shiftwidth when indenting with '<' and '>'
 set laststatus=2                  " Show the status line all the time
 
 set confirm                       " confirm on quit, etc.
 set autoread                      " automatically read changes from disk
-
-" Make the 'cw' and like commands put a $ at the end instead of just deleting
-" the text and replacing it
-set cpoptions=ces$
 
 set diffopt+=iwhite               " ignore whitespace in vimdiff
 
@@ -82,6 +81,22 @@ set matchpairs+=<:>               " add < and > to the chars thac can be navigat
 
 " Useful status information at bottom of screen
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
+
+" change the mapleader from \ to ,
+let mapleader=","
+
+" semicolon instead of a colon for commands
+nnoremap ; :
+
+" j and k will navigate correctly in the wrapped lines
+nnoremap j gj
+nnoremap k gk
+
+" Easy window navigation
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
 
 if (&term == "linux")
   let g:CSApprox_loaded = 1
@@ -109,3 +124,6 @@ let g:NERDTreeMapOpenVSplit = "v"
 map <silent> <F2> <ESC>:NERDTreeToggle<CR>
 nmap <silent> <leader>ft :NERDTreeFind<cr>
 
+" Make the 'cw' and like commands put a $ at the end instead of just deleting
+" the text and replacing it
+set cpoptions=ces$
