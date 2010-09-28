@@ -53,8 +53,6 @@ set visualbell                    " No beeping.
 
 set splitbelow splitright         " Splitting behavior
 
-set virtualedit=all               " Allow the cursor to go in to "invalid" places
-
 set nobackup                      " Don't make a backup before overwriting a file.
 set nowritebackup                 " And again.
 set directory=/tmp                " Keep swap files in one location
@@ -110,11 +108,4 @@ let g:NERDTreeMapOpenVSplit = "v"
 
 map <silent> <F2> <ESC>:NERDTreeToggle<CR>
 nmap <silent> <leader>ft :NERDTreeFind<cr>
-
-" Uncomment to use Jamis Buck's file opening plugin
-"map <Leader>t :FuzzyFinderTextMate<Enter>
-
-" For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
-" autocmd BufNewFile,BufRead *_spec.rb compiler rspec
-
 
