@@ -20,3 +20,4 @@ vim-conque - run a terminal/command inside a vim buffer
 vim-git - a couple more basic commands to work with git
 command-T - file opener/finder
 vim-ragtag - enables some keyboard shortcuts for working with HTML, ERB, etc.
+NerdCommenter - comment blocks of code

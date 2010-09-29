@@ -40,6 +40,8 @@ set cursorline                    " Highlight the current line
 set history=1000                  " remember more commands and search history
 set undolevels=1000               " use many muchos levels of undo
 
+set virtualedit=block             " allow the cursor to go into invalid places only in visual block mode
+
 " Display tabs and trailing spaces
 set list
 set listchars=tab:»\ ,trail:·,nbsp:·
@@ -123,6 +125,9 @@ let g:NERDTreeMapOpenVSplit = "v"
 
 map <silent> <F2> <ESC>:NERDTreeToggle<CR>
 nmap <silent> <leader>ft :NERDTreeFind<cr>
+
+" a key mapping for running tests
+nmap <silent> <leader>r :Rake<cr>
 
 " Make the 'cw' and like commands put a $ at the end instead of just deleting
 " the text and replacing it
