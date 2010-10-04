@@ -64,3 +64,6 @@
 [submodule "vim/bundle/scroolose-nerdcommenter"]
 	path = vim/bundle/scroolose-nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "vim/bundle/janx-rubytest.vim"]
+	path = vim/bundle/janx-rubytest.vim
+	url = git://github.com/janx/vim-rubytest.git

@@ -129,6 +129,11 @@ nmap <silent> <leader>ft :NERDTreeFind<cr>
 " a key mapping for running tests
 nmap <silent> <leader>r :Rake<cr>
 
+let g:rubytest_in_quickfix = 1
+let g:rubytest_cmd_test = "rake test"
+map <Leader>\ <Plug>RubyTestRun " change from <Leader>t to <Leader>\
+map <F11> <Plug>RubyFileRun
+
 " Make the 'cw' and like commands put a $ at the end instead of just deleting
 " the text and replacing it
 set cpoptions=ces$
