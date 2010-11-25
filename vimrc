@@ -124,10 +124,13 @@ let g:NERDTreeMapOpenSplit = "s"
 let g:NERDTreeMapOpenVSplit = "v"
 
 map <silent> <F2> <ESC>:NERDTreeToggle<CR>
-nmap <silent> <leader>ft :NERDTreeFind<cr>
+
+nmap <silent> <leader>ft :FufTag<cr>
+nmap <silent> <leader>fb :FufBuffer<cr>
 
 " a key mapping for running tests
 nmap <silent> <leader>r :Rake<cr>
+nmap <silent> <leader>rs :Rake<cr>
 
 cmap w!! w !sudo tee % >/dev/null " w!! lets you save files that you would have to use sudo vim to open
 
