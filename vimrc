@@ -129,10 +129,7 @@ nmap <silent> <leader>ft :NERDTreeFind<cr>
 " a key mapping for running tests
 nmap <silent> <leader>r :Rake<cr>
 
-let g:rubytest_in_quickfix = 1
-let g:rubytest_cmd_test = "rake test"
-map <Leader>\ <Plug>RubyTestRun " change from <Leader>t to <Leader>\
-map <F11> <Plug>RubyFileRun
+cmap w!! w !sudo tee % >/dev/null " w!! lets you save files that you would have to use sudo vim to open
 
 " Make the 'cw' and like commands put a $ at the end instead of just deleting
 " the text and replacing it
