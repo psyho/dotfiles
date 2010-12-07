@@ -94,6 +94,10 @@ nnoremap ; :
 nnoremap j gj
 nnoremap k gk
 
+" map .md files fo markdown
+au BufNewFile,BufRead *.md set filetype=markdown
+
+
 " Easy window navigation
 map <C-h> <C-w>h
 map <C-j> <C-w>j
