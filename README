@@ -2,14 +2,10 @@ Psyho's VIM config
 
 INSTALLATION:
 
-1. Check out the repo somewhere (ex. ~/dotvim)
+1. Check out the repo somewhere (ex. git clone --recursive git://github.com/psyho/dotvim.git ~/dotvim)
 2. Install dependencies by running install_dependencies.sh
 3. Create the symbolic links by running "cd; ~/dotvim/link_configs.py"
-4. Use git to check out the plugins:
-cd ~/dotvim
-git submodule init
-git submodule update
-5. PROFIT!
+4. PROFIT!
 
 Optional:
 Add
