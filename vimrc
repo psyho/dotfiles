@@ -142,7 +142,6 @@ nmap <silent> <leader>fb :FufBuffer<cr>
 " a key mapping for running tests
 nmap <silent> <leader>r :Rake<cr>
 nmap <silent> <leader>rs :Rake spec<cr>
-nmap <silent> hh :Rake spec<cr>
 
 cmap w!! w !sudo tee % >/dev/null " w!! lets you save files that you would have to use sudo vim to open
 
