@@ -100,6 +100,9 @@ au BufNewFile,BufRead *.md set filetype=markdown
 " automatically strip trailing whitespace for some file types
 autocmd FileType c,cpp,java,php,javascript,html,ruby autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
 
+au! BufRead,BufNewFile *.json setfiletype json
+autocmd FileType json set equalprg=json_reformat
+
 " Easy window navigation
 map <C-h> <C-w>h
 map <C-j> <C-w>j
