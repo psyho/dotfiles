@@ -2,7 +2,6 @@ pathogen - allows plugins to be put in spearate directories, aka "bundles"
 NerdTree - displays a neat file explorer window
 csapprox - make gvim colorschemes work in console
 snipmate - TextMate-style snippets for VIM
-vim-autoclose - automatically close braces, quotes, etc.
 vim-endwise - wisely add 'end' in ruby
 vim-fugitive - vim-git integration
 vim-javascript - better syntax highlighiting and indenting for JS
@@ -27,3 +26,4 @@ vim-easygrep - search and replace across the whole project
 d.vim - syntax highliting for D programming language
 session.vim - session management plugin
 JSON.vim - JSON syntax highlighting
+deliMate - autoclosing of (", etc. that does not clash with endwise
