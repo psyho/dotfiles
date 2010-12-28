@@ -27,3 +27,5 @@ d.vim - syntax highliting for D programming language
 session.vim - session management plugin
 JSON.vim - JSON syntax highlighting
 deliMate - autoclosing of (", etc. that does not clash with endwise
+vim-textobj-rubyblock - allow selecting blocks in ruby as text objects
+vim-textobj - dependency of rubyblock
