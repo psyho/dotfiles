@@ -42,6 +42,8 @@ set undolevels=1000               " use many muchos levels of undo
 
 set virtualedit=block             " allow the cursor to go into invalid places only in visual block mode
 
+set clipboard=unnamed             " Yanks to the unnamed register go on clipboard
+
 " Display tabs and trailing spaces
 set list
 set listchars=tab:»\ ,trail:·,nbsp:·
