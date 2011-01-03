@@ -79,3 +79,6 @@
 [submodule "vim/bundle/vim-textobj"]
 	path = vim/bundle/vim-textobj
 	url = git://github.com/kana/vim-textobj-user.git
+[submodule "vim/bundle/vim-ruby-refactoring"]
+	path = vim/bundle/vim-ruby-refactoring
+	url = git://github.com/ecomba/vim-ruby-refactoring.git
