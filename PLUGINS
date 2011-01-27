@@ -1,33 +1,33 @@
-pathogen - allows plugins to be put in spearate directories, aka "bundles"
+FuzzyFinder - finally I can go to a class or method like in RybyMine
+JSON.vim - JSON syntax highlighting
+LustyJuggler - switch between buffers easier
+NerdCommenter - comment blocks of code
 NerdTree - displays a neat file explorer window
+YankRing - when pasting use C-N and C-P to toggle between registers
+ack - use ack to search through files
+command-T - file opener/finder
 csapprox - make gvim colorschemes work in console
+d.vim - syntax highliting for D programming language
+deliMate - autoclosing of (", etc. that does not clash with endwise
+greplace.vim - plugin that allows search and replace across all of the project files
+pathogen - allows plugins to be put in spearate directories, aka "bundles"
+session.vim - session management plugin
 snipmate - TextMate-style snippets for VIM
+syntastic - plugin for displaying syntax errors
+vim-conque - run a terminal/command inside a vim buffer
 vim-endwise - wisely add 'end' in ruby
 vim-fugitive - vim-git integration
+vim-git - a couple more basic commands to work with git
 vim-javascript - better syntax highlighiting and indenting for JS
 vim-markdown - syntax highlighting for markdown
 vim-matchit - better pair matching for the % command
+vim-ragtag - enables some keyboard shortcuts for working with HTML, ERB, etc.
 vim-rails - awesome vim-rails integration
 vim-repeat - repeat comnmands from plugins using .
 vim-ruby - ruby integration
-vim-surround - surrounding text with braces, quotes, html tags...
-vim-zoomwin - when maximizing the window it is possible to un-maximize it
-ack - use ack to search through files
-vim-unimpaired - some useful mappings, for example to swap code lines
-vim-conque - run a terminal/command inside a vim buffer
-vim-git - a couple more basic commands to work with git
-command-T - file opener/finder
-vim-ragtag - enables some keyboard shortcuts for working with HTML, ERB, etc.
-NerdCommenter - comment blocks of code
-LustyJuggler - switch between buffers easier
-FuzzyFinder - finally I can go to a class or method like in RybyMine
-YankRing - when pasting use C-N and C-P to toggle between registers
-d.vim - syntax highliting for D programming language
-session.vim - session management plugin
-JSON.vim - JSON syntax highlighting
-deliMate - autoclosing of (", etc. that does not clash with endwise
-vim-textobj-rubyblock - allow selecting blocks in ruby as text objects
-vim-textobj - dependency of rubyblock
 vim-ruby-refactoring - automatic refactorings for ruby
-greplace.vim - plugin that allows search and replace across all of the project files
-syntastic - plugin for displaying syntax errors
+vim-surround - surrounding text with braces, quotes, html tags...
+vim-textobj - dependency of rubyblock
+vim-textobj-rubyblock - allow selecting blocks in ruby as text objects
+vim-unimpaired - some useful mappings, for example to swap code lines
+vim-zoomwin - when maximizing the window it is possible to un-maximize it
