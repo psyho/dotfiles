@@ -61,9 +61,6 @@
 [submodule "vim/bundle/sjbach-lusty"]
 	path = vim/bundle/sjbach-lusty
 	url = git://github.com/sjbach/lusty.git
-[submodule "vim/bundle/vim-easygrep"]
-	path = vim/bundle/vim-easygrep
-	url = git://github.com/gaving/vim-easygrep.git
 [submodule "vim/bundle/d.vim/syntax"]
 	path = vim/bundle/d.vim/syntax
 	url = https://github.com/he-the-great/d.vim.git

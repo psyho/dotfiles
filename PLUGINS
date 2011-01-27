@@ -22,7 +22,6 @@ NerdCommenter - comment blocks of code
 LustyJuggler - switch between buffers easier
 FuzzyFinder - finally I can go to a class or method like in RybyMine
 YankRing - when pasting use C-N and C-P to toggle between registers
-vim-easygrep - search and replace across the whole project
 d.vim - syntax highliting for D programming language
 session.vim - session management plugin
 JSON.vim - JSON syntax highlighting

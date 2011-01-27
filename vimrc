@@ -146,6 +146,9 @@ nmap <silent> <leader>fb :FufBuffer<cr>
 nmap <silent> <leader>r :Rake<cr>
 nmap <silent> <leader>rs :Rake spec<cr>
 
+" regenarate tags and reload the list of files used by Command-T plugin
+nmap <silent> <leader>gg :CommandTFlush<cr>:Rtags<cr>:!ctags -R .<cr>
+
 cmap w!! w !sudo tee % >/dev/null " w!! lets you save files that you would have to use sudo vim to open
 
 " Make the 'cw' and like commands put a $ at the end instead of just deleting
