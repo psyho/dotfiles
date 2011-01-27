@@ -85,3 +85,6 @@
 [submodule "vim/bundle/syntastic"]
 	path = vim/bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
+[submodule "vim/bundle/zencoding-vim"]
+	path = vim/bundle/zencoding-vim
+	url = git://github.com/mattn/zencoding-vim.git

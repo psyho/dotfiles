@@ -31,3 +31,4 @@ vim-textobj - dependency of rubyblock
 vim-textobj-rubyblock - allow selecting blocks in ruby as text objects
 vim-unimpaired - some useful mappings, for example to swap code lines
 vim-zoomwin - when maximizing the window it is possible to un-maximize it
+zencoding-vim - plugin for expanding css-like syntax to html
