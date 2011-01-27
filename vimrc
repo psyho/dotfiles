@@ -137,6 +137,12 @@ let g:session_autosave = 1        " save session on exit
 let g:session_autoload = 1        " load session on startup
 let g:session_directory = "~/.vim-sessions"
 
+" syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_enable_signs=1
+
 map <silent> <F2> <ESC>:NERDTreeToggle<CR>
 
 nmap <silent> <leader>ft :FufTag<cr>
