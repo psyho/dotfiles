@@ -29,3 +29,4 @@ deliMate - autoclosing of (", etc. that does not clash with endwise
 vim-textobj-rubyblock - allow selecting blocks in ruby as text objects
 vim-textobj - dependency of rubyblock
 vim-ruby-refactoring - automatic refactorings for ruby
+greplace.vim - plugin that allows search and replace across all of the project files

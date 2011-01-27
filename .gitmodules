@@ -79,3 +79,6 @@
 [submodule "vim/bundle/vim-ruby-refactoring"]
 	path = vim/bundle/vim-ruby-refactoring
 	url = git://github.com/ecomba/vim-ruby-refactoring.git
+[submodule "vim/bundle/vim-greplace"]
+	path = vim/bundle/vim-greplace
+	url = git://github.com/skwp/greplace.vim.git
