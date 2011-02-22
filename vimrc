@@ -142,6 +142,7 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 let g:syntastic_enable_signs=1
+let g:syntastic_disabled_filetypes = ['eruby']
 
 " zencoding-vim
 let g:user_zen_expandabbr_key = '<c-e>' 
@@ -157,7 +158,10 @@ nmap <silent> <leader>r :Rake<cr>
 nmap <silent> <leader>rs :Rake spec<cr>
 
 " regenarate tags and reload the list of files used by Command-T plugin
-nmap <silent> <leader>gg :CommandTFlush<cr>:Rtags<cr>:!ctags -R .<cr>
+nmap <silent> <leader>gg :CommandTFlush<cr>:Rtags<cr>
+
+" ignore gems bundled in the project directory
+set wildignore+=vendor/gems,vendor/bundle
 
 cmap w!! w !sudo tee % >/dev/null " w!! lets you save files that you would have to use sudo vim to open
 
