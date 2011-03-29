@@ -11,7 +11,6 @@ d.vim - syntax highliting for D programming language
 deliMate - autoclosing of (", etc. that does not clash with endwise
 greplace.vim - plugin that allows search and replace across all of the project files
 pathogen - allows plugins to be put in spearate directories, aka "bundles"
-session.vim - session management plugin
 snipmate - TextMate-style snippets for VIM
 syntastic - plugin for displaying syntax errors
 vim-conque - run a terminal/command inside a vim buffer

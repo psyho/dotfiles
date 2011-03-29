@@ -132,11 +132,6 @@ let g:NERDChristmasTree = 1
 let g:NERDTreeMapOpenSplit = "s"
 let g:NERDTreeMapOpenVSplit = "v"
 
-" session.vim
-let g:session_autosave = 1        " save session on exit
-let g:session_autoload = 1        " load session on startup
-let g:session_directory = "~/.vim-sessions"
-
 " syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
