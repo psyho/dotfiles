@@ -5,6 +5,7 @@ INSTALLATION:
 1. Check out the repo somewhere (ex. git clone --recursive git://github.com/psyho/dotvim.git ~/dotvim)
 2. Install dependencies by running install_dependencies.sh
 3. Create the symbolic links by running "cd; ~/dotvim/link_configs.py"
+4. Open VIM, type :BundleInstall to install plugins.
 4. PROFIT!
 
 Optional:
