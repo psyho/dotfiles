@@ -10,8 +10,9 @@
 
 set nocompatible                  " Must come first because it changes other options.
 
-silent! call pathogen#runtime_append_all_bundles()
-silent! call pathogen#helptags()
+" setup Vundle
+set rtp+=~/.vim/vundle.git/ 
+call vundle#rc()
 
 syntax enable                     " Turn on syntax highlighting.
 filetype plugin indent on         " Turn on file type detection.
