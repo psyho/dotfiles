@@ -7,12 +7,111 @@
 "
 "==========================================================
 
-
 set nocompatible                  " Must come first because it changes other options.
 
 " setup Vundle
 set rtp+=~/.vim/vundle.git/ 
 call vundle#rc()
+
+"----------------------------------------------------------
+" PLUGINS
+"----------------------------------------------------------
+
+" FuzzyFinder - finally I can go to a class or method like in RubyMine
+Bundle 'L9'
+Bundle 'FuzzyFinder'
+
+" JSON.vim - JSON syntax highlighting
+Bundle 'JSON.vim'
+
+" LustyJuggler - switch between buffers easier
+Bundle 'LustyJuggler'
+
+" NerdCommenter - comment blocks of code
+Bundle 'The-NERD-Commenter'
+
+" NerdTree - displays a neat file explorer window
+Bundle 'The-NERD-tree'
+
+" YankRing - when pasting use C-N and C-P to toggle between registers
+Bundle 'YankRing.vim'
+
+" ack - use ack to search through files
+Bundle 'ack.vim'
+
+" command-T - file opener/finder
+Bundle 'Command-T'
+
+" csapprox - make gvim colorschemes work in console
+Bundle 'CSApprox'
+
+" d.vim - syntax highliting for D programming language
+Bundle 'd.vim'
+
+" delimitMate - autoclosing of (", etc. that does not clash with endwise
+Bundle 'delimitMate.vim'
+
+" greplace.vim - plugin that allows search and replace across all of the project files
+Bundle 'greplace.vim'
+
+" syntastic - plugin for displaying syntax errors
+Bundle 'Syntastic'
+
+" vim-endwise - wisely add 'end' in ruby
+Bundle 'endwise.vim'
+
+" vim-fugitive - vim-git integration
+Bundle 'fugitive.vim'
+
+" vim-git - a couple more basic commands to work with git
+Bundle 'tpope/vim-git'
+
+" vim-javascript - better syntax highlighiting and indenting for JS
+Bundle 'javascript.vim'
+
+" vim-markdown - syntax highlighting for markdown
+Bundle 'Markdown'
+
+" vim-matchit - better pair matching for the % command
+Bundle 'matchit.zip'
+
+" vim-ragtag - enables some keyboard shortcuts for working with HTML, ERB, etc.
+Bundle 'ragtag.vim'
+
+" vim-rake - :Rake, :A, :R like in rails.vim, but without rails
+Bundle 'tpope/vim-rake'
+
+" vim-rails - awesome vim-rails integration
+Bundle 'rails.vim'
+
+" vim-repeat - repeat comnmands from plugins using .
+Bundle 'repeat.vim'
+
+" vim-ruby - ruby integration
+Bundle 'ruby.vim'
+
+" vim-ruby-refactoring - automatic refactorings for ruby
+Bundle 'ecomba/vim-ruby-refactoring'
+
+" vim-surround - surrounding text with braces, quotes, html tags...
+Bundle 'surround.vim'
+
+" vim-textobj - dependency of rubyblock
+Bundle 'textobj-user'
+
+" vim-textobj-rubyblock - allow selecting blocks in ruby as text objects
+Bundle 'textobj-rubyblock'
+
+" vim-unimpaired - some useful mappings, for example to swap code lines
+Bundle 'unimpaired.vim'
+
+" vim-zoomwin - when maximizing the window it is possible to un-maximize it
+Bundle 'ZoomWin'
+
+" zencoding-vim - plugin for expanding css-like syntax to html
+Bundle 'ZenCoding.vim'
+
+"----------------------------------------------------------
 
 syntax enable                     " Turn on syntax highlighting.
 filetype plugin indent on         " Turn on file type detection.
