@@ -66,9 +66,6 @@ Bundle 'fugitive.vim'
 " vim-git - a couple more basic commands to work with git
 Bundle 'tpope/vim-git'
 
-" vim-javascript - better syntax highlighiting and indenting for JS
-Bundle 'javascript.vim'
-
 " vim-markdown - syntax highlighting for markdown
 Bundle 'Markdown'
 
