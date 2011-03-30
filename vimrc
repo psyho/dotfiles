@@ -57,6 +57,9 @@ Bundle 'greplace.vim'
 " syntastic - plugin for displaying syntax errors
 Bundle 'Syntastic'
 
+" No longer count letters or words when jumping
+Bundle 'Lokaltog/vim-easymotion'
+
 " vim-endwise - wisely add 'end' in ruby
 Bundle 'endwise.vim'
 
@@ -250,7 +253,8 @@ nmap <silent> <leader>r :Rake<cr>
 nmap <silent> <leader>rs :Rake spec<cr>
 
 " regenarate tags and reload the list of files used by Command-T plugin
-nmap <silent> <leader>gg :CommandTFlush<cr>:Rtags<cr>
+nmap <silent> <leader>g :CommandT<cr>
+nmap <silent> <leader>G :CommandTFlush<cr>:Rtags<cr>
 
 " ignore gems bundled in the project directory
 set wildignore+=vendor/gems,vendor/bundle
