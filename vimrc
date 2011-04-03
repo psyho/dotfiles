@@ -264,3 +264,6 @@ cmap w!! w !sudo tee % >/dev/null " w!! lets you save files that you would have 
 " Make the 'cw' and like commands put a $ at the end instead of just deleting
 " the text and replacing it
 set cpoptions=ces$
+
+" some plugin was overriding the redo command
+nmap <silent> <c-r> :redo<cr>
