@@ -21,6 +21,9 @@ call vundle#rc()
 Bundle 'L9'
 Bundle 'FuzzyFinder'
 
+" javascript indentation in vim sucks
+Bundle 'Better-Javascript-Indentation'
+
 " JSON.vim - JSON syntax highlighting
 Bundle 'JSON.vim'
 
