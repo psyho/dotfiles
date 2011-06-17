@@ -36,9 +36,6 @@ Bundle 'The-NERD-Commenter'
 " NerdTree - displays a neat file explorer window
 Bundle 'The-NERD-tree'
 
-" YankRing - when pasting use C-N and C-P to toggle between registers
-Bundle 'YankRing.vim'
-
 " ack - use ack to search through files
 Bundle 'ack.vim'
 
