@@ -54,6 +54,9 @@ Bundle 'delimitMate.vim'
 " greplace.vim - plugin that allows search and replace across all of the project files
 Bundle 'greplace.vim'
 
+" jslint .js files automatically
+Bundle 'jslint.vim'
+
 " syntastic - plugin for displaying syntax errors
 Bundle 'Syntastic'
 
