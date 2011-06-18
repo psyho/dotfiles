@@ -45,6 +45,9 @@ Bundle 'Command-T'
 " csapprox - make gvim colorschemes work in console
 Bundle 'CSApprox'
 
+" highlight colors
+Bundle 'colorizer'
+
 " d.vim - syntax highliting for D programming language
 Bundle 'd.vim'
 
@@ -270,3 +273,6 @@ set cpoptions=ces$
 
 " some plugin was overriding the redo command
 nmap <silent> <c-r> :redo<cr>
+
+" map ,c to colorizer
+nmap ,c <Plug>Colorizer
