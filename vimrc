@@ -262,6 +262,10 @@ nmap <silent> <leader>rs :Rake spec<cr>
 nmap <silent> <leader>g :CommandT<cr>
 nmap <silent> <leader>G :CommandTFlush<cr>:Rtags<cr>
 
+" unmap other ,g bindings
+nunmap <leader>ge
+nunmap <leader>gE
+
 " ignore gems bundled in the project directory
 set wildignore+=vendor/gems,vendor/bundle
 
