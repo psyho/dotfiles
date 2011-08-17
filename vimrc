@@ -24,6 +24,9 @@ Bundle 'FuzzyFinder'
 " javascript indentation in vim sucks
 Bundle 'Better-Javascript-Indentation'
 
+" CSS
+Bundle 'Better-CSS-Syntax-for-Vim'
+
 " JSON.vim - JSON syntax highlighting
 Bundle 'JSON.vim'
 
@@ -38,6 +41,9 @@ Bundle 'The-NERD-tree'
 
 " ack - use ack to search through files
 Bundle 'ack.vim'
+
+" Buffer navigation plugin
+Bundle 'buftabs'
 
 " command-T - file opener/finder
 Bundle 'Command-T'
@@ -63,8 +69,8 @@ Bundle 'jslint.vim'
 " syntastic - plugin for displaying syntax errors
 Bundle 'Syntastic'
 
-" No longer count letters or words when jumping
-Bundle 'Lokaltog/vim-easymotion'
+" Linting for Python code
+Bundle 'pyflakes.vim'
 
 " vim-endwise - wisely add 'end' in ruby
 Bundle 'endwise.vim'
@@ -99,6 +105,12 @@ Bundle 'ruby.vim'
 " vim-ruby-refactoring - automatic refactorings for ruby
 Bundle 'ecomba/vim-ruby-refactoring'
 
+" A nice color scheme
+Bundle 'Solarized'
+
+" cuztomizable tab completion, continued is the newer version
+Bundle 'SuperTab-continued.'
+
 " vim-surround - surrounding text with braces, quotes, html tags...
 Bundle 'surround.vim'
 
@@ -107,6 +119,9 @@ Bundle 'textobj-user'
 
 " vim-textobj-rubyblock - allow selecting blocks in ruby as text objects
 Bundle 'textobj-rubyblock'
+
+" Display a tree structure with current file tags
+Bundle 'Tagbar'
 
 " vim-unimpaired - some useful mappings, for example to swap code lines
 Bundle 'unimpaired.vim'
@@ -215,24 +230,6 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
-if (&term == "linux")
-  let g:CSApprox_loaded = 1
-else
-  " Colors for console
-  if !has("gui_running")
-    set t_Co=256
-  endif
-
-  " Scheme
-  colors railscasts
-endif
-
-" set some different setting for the diff mode
-if &diff
-  colorscheme fu_patched " different scheme
-  set nonumber " no line numbers
-endif
-
 " NERDTree
 let g:NERDChristmasTree = 1
 let g:NERDTreeMapOpenSplit = "s"
@@ -262,10 +259,6 @@ nmap <silent> <leader>rs :Rake spec<cr>
 nmap <silent> <leader>g :CommandT<cr>
 nmap <silent> <leader>G :CommandTFlush<cr>:Rtags<cr>
 
-" unmap other ,g bindings
-nunmap <leader>ge
-nunmap <leader>gE
-
 " ignore gems bundled in the project directory
 set wildignore+=vendor/gems,vendor/bundle
 
@@ -280,3 +273,34 @@ nmap <silent> <c-r> :redo<cr>
 
 " map ,c to colorizer
 nmap ,c <Plug>Colorizer
+
+" buftabs shortcuts
+nmap <F10> :bprev<cr>
+nmap <F11> :bnext<cr>
+
+" use omni-completion in supertab
+let g:SuperTabDefaultCompletionType = "context"
+
+" solarized settings
+set background=dark
+let g:solarized_termtrans=1
+let g:solarized_termcolors=256
+let g:solarized_contrast="high"
+let g:solarized_visibility="high"
+
+" Colors for console
+if !has("gui_running")
+  set t_Co=256
+endif
+
+" Scheme
+colorscheme solarized
+
+" Tagbar
+nnoremap <F3> :TagbarToggle<CR>
+
+" set some different setting for the diff mode
+if &diff
+  colorscheme fu_patched " different scheme
+  set nonumber " no line numbers
+endif
