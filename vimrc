@@ -17,6 +17,9 @@ call vundle#rc()
 " PLUGINS
 "----------------------------------------------------------
 
+" LaTeX support
+Bundle 'AutomaticTexPlugin'
+
 " FuzzyFinder - finally I can go to a class or method like in RubyMine
 Bundle 'L9'
 Bundle 'FuzzyFinder'
@@ -277,9 +280,6 @@ nmap ,c <Plug>Colorizer
 " buftabs shortcuts
 nmap <F10> :bprev<cr>
 nmap <F11> :bnext<cr>
-
-" use omni-completion in supertab
-let g:SuperTabDefaultCompletionType = "context"
 
 " solarized settings
 set background=dark
