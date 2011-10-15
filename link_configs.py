@@ -17,3 +17,4 @@ def link_local_to_home(local_name, home_name):
 link_local_to_home('vim', '.vim')
 link_local_to_home('vimrc', '.vimrc')
 link_local_to_home('gvimrc', '.gvimrc')
+link_local_to_home('zshrc', '.zshrc')
