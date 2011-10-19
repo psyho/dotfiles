@@ -117,6 +117,13 @@ Bundle 'SuperTab-continued.'
 " vim-surround - surrounding text with braces, quotes, html tags...
 Bundle 'surround.vim'
 
+" Snipmate - the new version
+Bundle "git://github.com/MarcWeber/vim-addon-mw-utils.git"
+Bundle "git://github.com/tomtom/tlib_vim.git"
+Bundle "git://github.com/honza/snipmate-snippets.git"
+
+Bundle "git://github.com/garbas/vim-snipmate.git"
+
 " vim-textobj - dependency of rubyblock
 Bundle 'textobj-user'
 
