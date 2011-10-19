@@ -84,6 +84,9 @@ Bundle 'fugitive.vim'
 " vim-git - a couple more basic commands to work with git
 Bundle 'tpope/vim-git'
 
+" vim-bundler to include gems from Gemfile.lock in ctags
+Bundle 'tpope/vim-git'
+
 " vim-markdown - syntax highlighting for markdown
 Bundle 'Markdown'
 
