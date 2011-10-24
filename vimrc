@@ -31,7 +31,7 @@ Bundle 'Better-Javascript-Indentation'
 Bundle 'Better-CSS-Syntax-for-Vim'
 
 " JSON.vim - JSON syntax highlighting
-Bundle 'JSON.vim'
+"Bundle 'JSON.vim'
 
 " LustyJuggler - switch between buffers easier
 Bundle 'LustyJuggler'
@@ -145,6 +145,8 @@ Bundle 'ZoomWin'
 " zencoding-vim - plugin for expanding css-like syntax to html
 Bundle 'ZenCoding.vim'
 
+" change font size in gvim
+Bundle 'zoom.vim'
 "----------------------------------------------------------
 
 syntax enable                     " Turn on syntax highlighting.
