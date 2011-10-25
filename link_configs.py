@@ -15,9 +15,7 @@ def link_local_to_home(local_name, home_name):
   if os.path.exists(home_path): os.remove(home_path)
   os.symlink(local_path, home_path)
 
-link_local_to_home('vim', '.vim')
-link_local_to_home('vimrc', '.vimrc')
-link_local_to_home('gvimrc', '.gvimrc')
-link_local_to_home('zshrc', '.zshrc')
-link_local_to_home('Xresources', '.Xresources')
-link_local_to_home('gitconfig', '.gitconfig')
+files = ['vim', 'vimrc', 'gvimrc', 'zshrc', 'Xresources', 'gitconfig', 'tmux.conf']
+
+for file in files:
+  link_local_to_home(file, '.'+file)
