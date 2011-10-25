@@ -10,3 +10,5 @@
 	ui = auto
 [push]
 	default = matching
+[fetch]
+	recursesubmodules = true

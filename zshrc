@@ -26,4 +26,7 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=/home/psyho/scripts:$PATH
 
+export EDITOR=vim
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+[[ -s "$HOME/.tmuxinator/scripts/tmuxinator" ]] && source "$HOME/.tmuxinator/scripts/tmuxinator"
