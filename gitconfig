@@ -1,0 +1,12 @@
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+[user]
+	name = Adam Pohorecki
+	email = adam.pohorecki@llp.pl
+[color]
+	ui = auto
+[push]
+	default = matching

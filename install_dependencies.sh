@@ -4,6 +4,8 @@
 # Various Dependencies
 ##################################
 
+mkdir -p ~/.kde/share/apps/konsole/
+cp konsole-colors-solarized/*.colorscheme ~/.kde/share/apps/konsole/
 cd `dirname $0`/vim/bundle/Command-T/ruby/command-t/; ruby extconf.rb; make
 
 sudo apt-get install vim vim-gtk # vim and gvim
