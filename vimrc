@@ -102,7 +102,7 @@ Bundle 'tpope/vim-rake'
 " vim-rails - awesome vim-rails integration
 Bundle 'rails.vim'
 
-" vim-repeat - repeat comnmands from plugins using .
+" vim-repeat - repeat commands from plugins using .
 Bundle 'repeat.vim'
 
 " vim-ruby - ruby integration
@@ -213,9 +213,12 @@ set diffopt+=iwhite               " ignore whitespace in vimdiff
 set foldmethod=indent             " indent based on syntax
 set foldnestmax=3                 " deepest fold is 3 levels
 set foldlevel=3
-set nofoldenable                  " dont fold by default
+set nofoldenable                  " don't fold by default
 
-set matchpairs+=<:>               " add < and > to the chars thac can be navigated with %
+set matchpairs+=<:>               " add < and > to the chars that can be navigated with %
+
+set spell                         " enable spell check
+set spelllang=en_us               " default spell check language
 
 " Useful status information at bottom of screen
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
@@ -273,6 +276,11 @@ nmap <silent> <leader>rs :Rake spec<cr>
 " regenarate tags and reload the list of files used by Command-T plugin
 nmap <silent> <leader>g :CommandT<cr>
 nmap <silent> <leader>G :CommandTFlush<cr>:Rtags<cr>
+
+" spell-checking related shortcuts
+nmap <silent> <leader>s :set spell!<CR>
+nmap <silent> <leader>lp :set spelllang=pl_pl<CR>
+nmap <silent> <leader>le :set spelllang=en_us<CR>
 
 " ignore gems bundled in the project directory
 set wildignore+=vendor/gems,vendor/bundle
