@@ -48,8 +48,8 @@ Bundle 'ack.vim'
 " Buffer navigation plugin
 Bundle 'buftabs'
 
-" command-T - file opener/finder
-Bundle 'Command-T'
+" replacement for command-t
+Bundle 'ctrlp.vim'
 
 " csapprox - make gvim colorschemes work in console
 Bundle 'CSApprox'
@@ -273,9 +273,8 @@ nmap <silent> <leader>fb :FufBuffer<cr>
 nmap <silent> <leader>r :Rake<cr>
 nmap <silent> <leader>rs :Rake spec<cr>
 
-" regenarate tags and reload the list of files used by Command-T plugin
-nmap <silent> <leader>g :CommandT<cr>
-nmap <silent> <leader>G :CommandTFlush<cr>:Rtags<cr>
+" override ctrl-p defaults
+let g:ctrlp_map = '<leader>g'
 
 " spell-checking related shortcuts
 nmap <silent> <leader>s :set spell!<CR>
