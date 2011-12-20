@@ -273,9 +273,6 @@ nmap <silent> <leader>fb :FufBuffer<cr>
 nmap <silent> <leader>r :Rake<cr>
 nmap <silent> <leader>rs :Rake spec<cr>
 
-" override ctrl-p defaults
-let g:ctrlp_map = '<leader>g'
-
 " spell-checking related shortcuts
 nmap <silent> <leader>s :set spell!<CR>
 nmap <silent> <leader>lp :set spelllang=pl_pl<CR>
@@ -283,6 +280,13 @@ nmap <silent> <leader>le :set spelllang=en_us<CR>
 
 " ignore gems bundled in the project directory
 set wildignore+=vendor/gems,vendor/bundle
+
+" some Git mappings
+nmap <silent> <leader>gt :Gstatus<cr>
+nmap <silent> <leader>gl :Git pull --rebase<cr>
+nmap <silent> <leader>gp :Git push<cr>
+nmap <silent> <leader>gs :Git stash<cr>
+nmap <silent> <leader>gsp :Git stash pop<cr>
 
 cmap w!! w !sudo tee % >/dev/null " w!! lets you save files that you would have to use sudo vim to open
 
