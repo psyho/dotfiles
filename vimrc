@@ -45,9 +45,6 @@ Bundle 'The-NERD-tree'
 " ack - use ack to search through files
 Bundle 'ack.vim'
 
-" Buffer navigation plugin
-Bundle 'buftabs'
-
 " replacement for command-t
 Bundle 'ctrlp.vim'
 
@@ -62,6 +59,9 @@ Bundle 'd.vim'
 
 " delimitMate - autoclosing of (", etc. that does not clash with endwise
 Bundle 'delimitMate.vim'
+
+" generate project tags automatically
+Bundle 'easytags.vim'
 
 " greplace.vim - plugin that allows search and replace across all of the project files
 Bundle 'greplace.vim'
@@ -288,6 +288,9 @@ nmap <silent> <leader>gp :Git push<cr>
 nmap <silent> <leader>gs :Git stash<cr>
 nmap <silent> <leader>gsp :Git stash pop<cr>
 
+" this is how often easytags script runs (I think)
+set updatetime=4000
+
 cmap w!! w !sudo tee % >/dev/null " w!! lets you save files that you would have to use sudo vim to open
 
 " Make the 'cw' and like commands put a $ at the end instead of just deleting
@@ -299,10 +302,6 @@ nmap <silent> <c-r> :redo<cr>
 
 " map ,c to colorizer
 nmap ,c <Plug>Colorizer
-
-" buftabs shortcuts
-nmap <F10> :bprev<cr>
-nmap <F11> :bnext<cr>
 
 " solarized settings
 set background=dark
