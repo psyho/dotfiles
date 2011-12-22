@@ -269,10 +269,6 @@ map <silent> <F2> <ESC>:NERDTreeToggle<CR>
 nmap <silent> <leader>ft :FufTag<cr>
 nmap <silent> <leader>fb :FufBuffer<cr>
 
-" a key mapping for running tests
-nmap <silent> <leader>r :Rake<cr>
-nmap <silent> <leader>rs :Rake spec<cr>
-
 " spell-checking related shortcuts
 nmap <silent> <leader>s :set spell!<CR>
 nmap <silent> <leader>lp :set spelllang=pl_pl<CR>
@@ -299,6 +295,12 @@ set cpoptions=ces$
 
 " some plugin was overriding the redo command
 nmap <silent> <c-r> :redo<cr>
+
+" no idea what breaks redo, so let's add a replacement mapping
+nmap <silent> <leader>r :redo<cr>
+
+" switch between two last open files faster
+nmap <silent> <leader><leader> <c-^>
 
 " map ,c to colorizer
 nmap ,c <Plug>Colorizer
