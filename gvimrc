@@ -1,4 +1,4 @@
-set guifont=Bitstream\ Vera\ Sans\ Mono\ Bold\ 11       " Font family and font size.
+set guifont=Bitstream\ Vera\ Sans\ Mono\ 14       " Font family and font size.
 set antialias                     " MacVim: smooth fonts.
 set encoding=utf-8                " Use UTF-8 everywhere.
 set guioptions-=R
