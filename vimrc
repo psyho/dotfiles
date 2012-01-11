@@ -54,6 +54,9 @@ Bundle 'CSApprox'
 " highlight colors
 Bundle 'colorizer'
 
+" cucumber support
+Bundle 'tpope/vim-cucumber'
+
 " d.vim - syntax highliting for D programming language
 Bundle 'd.vim'
 
