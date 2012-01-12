@@ -103,7 +103,7 @@ Bundle 'ragtag.vim'
 Bundle 'tpope/vim-rake'
 
 " vim-rails - awesome vim-rails integration
-Bundle 'rails.vim'
+Bundle 'tpope/vim-rails'
 
 " vim-repeat - repeat commands from plugins using .
 Bundle 'repeat.vim'
@@ -325,6 +325,9 @@ colorscheme solarized
 
 " Tagbar
 nnoremap <F3> :TagbarToggle<CR>
+
+" don't allow ctrl-p to manage path
+let g:ctrlp_working_path_mode = 0
 
 " set some different setting for the diff mode
 if &diff
