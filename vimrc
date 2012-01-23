@@ -20,6 +20,9 @@ call vundle#rc()
 " LaTeX support
 Bundle 'AutomaticTexPlugin'
 
+" generate project tags automatically
+Bundle 'AutoTag'
+
 " FuzzyFinder - finally I can go to a class or method like in RubyMine
 Bundle 'L9'
 Bundle 'FuzzyFinder'
@@ -62,9 +65,6 @@ Bundle 'd.vim'
 
 " delimitMate - autoclosing of (", etc. that does not clash with endwise
 Bundle 'delimitMate.vim'
-
-" generate project tags automatically
-Bundle 'easytags.vim'
 
 " greplace.vim - plugin that allows search and replace across all of the project files
 Bundle 'greplace.vim'
