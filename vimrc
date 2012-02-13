@@ -329,6 +329,10 @@ nnoremap <F3> :TagbarToggle<CR>
 " don't allow ctrl-p to manage path
 let g:ctrlp_working_path_mode = 0
 
+" don't search coverage reports and vcr cassettes
+set wildignore+=spec/reports
+set wildignore+=spec/cassettes
+
 " set some different setting for the diff mode
 if &diff
   colorscheme fu_patched " different scheme
