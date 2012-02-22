@@ -333,6 +333,9 @@ let g:ctrlp_working_path_mode = 0
 set wildignore+=spec/reports
 set wildignore+=spec/cassettes
 
+" Use Node.js for JavaScript interpretation
+let $JS_CMD='node'
+
 " set some different setting for the diff mode
 if &diff
   colorscheme fu_patched " different scheme
