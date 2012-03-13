@@ -27,7 +27,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/home/psyho/scripts:$PATH
 
 export EDITOR=vim
-export CC=gcc-4.2
+export CC=gcc-4.4
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 [[ -s "$HOME/.tmuxinator/scripts/tmuxinator" ]] && source "$HOME/.tmuxinator/scripts/tmuxinator"
