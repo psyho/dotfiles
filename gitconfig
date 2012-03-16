@@ -12,3 +12,5 @@
 	default = matching
 [fetch]
 	recursesubmodules = true
+[github]
+	user = psyho
