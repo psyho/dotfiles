@@ -29,5 +29,10 @@ export PATH=/home/psyho/scripts:$PATH
 export EDITOR=vim
 export CC=gcc-4.4
 
+export RBXOPT=-X19
+export JRUBY_OPTS="--1.9"
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 [[ -s "$HOME/.tmuxinator/scripts/tmuxinator" ]] && source "$HOME/.tmuxinator/scripts/tmuxinator"
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
