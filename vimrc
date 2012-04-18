@@ -139,6 +139,9 @@ Bundle 'textobj-rubyblock'
 " Display a tree structure with current file tags
 Bundle 'Tagbar'
 
+" format text which has tabular form
+Bundle 'godlygeek/tabular'
+
 " vim-unimpaired - some useful mappings, for example to swap code lines
 Bundle 'unimpaired.vim'
 
