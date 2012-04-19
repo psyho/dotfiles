@@ -84,6 +84,9 @@ Bundle 'endwise.vim'
 " vim-fugitive - vim-git integration
 Bundle 'fugitive.vim'
 
+" upload to gist.github.com
+Bundle 'Gist.vim'
+
 " vim-git - a couple more basic commands to work with git
 Bundle 'tpope/vim-git'
 
