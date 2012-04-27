@@ -8,10 +8,13 @@ export ZSH_THEME="gallois"
 export PATH=~/scripts:$PATH
 
 export EDITOR=vim
-export CC=gcc-4.4
+export CC=gcc-4.2
 
 export RBXOPT=-X19
 export JRUBY_OPTS="--1.9"
+
+export LC_CTYPE=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 [[ -s "$HOME/.tmuxinator/scripts/tmuxinator" ]] && source "$HOME/.tmuxinator/scripts/tmuxinator"
