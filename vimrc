@@ -312,7 +312,10 @@ nmap <silent> <leader>r :redo<cr>
 nmap <silent> <leader><leader> <c-^>
 
 " map ,c to colorizer
-nmap ,c <Plug>Colorizer
+nmap <leader>c <Plug>Colorizer
+
+" create directory for current file
+nmap <silent> <leader>d :!mkdir -p %:h<cr>:w<cr>
 
 " solarized settings
 set background=dark
