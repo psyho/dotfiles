@@ -82,9 +82,6 @@ Bundle 'tpope/vim-rake'
 " vim-rails - awesome vim-rails integration
 Bundle 'tpope/vim-rails'
 
-" vim-repeat - repeat commands from plugins using .
-Bundle 'repeat.vim'
-
 " vim-ruby - ruby integration
 Bundle 'ruby.vim'
 
