@@ -20,6 +20,8 @@ export LANG=en_US.UTF-8
 [[ -s "$HOME/.tmuxinator/scripts/tmuxinator" ]] && source "$HOME/.tmuxinator/scripts/tmuxinator"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
+eval "$(hub alias -s)"
+
 # Set to this to use case-sensitive completion
 # export CASE_SENSITIVE="true"
 
