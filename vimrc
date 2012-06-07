@@ -35,7 +35,7 @@ Bundle 'Better-Javascript-Indentation'
 Bundle 'Better-CSS-Syntax-for-Vim'
 
 " Fuzzy file searching
-Bundle 'Command-T'
+Bundle 'wincent/Command-T'
 
 " NerdCommenter - comment blocks of code
 Bundle 'The-NERD-Commenter'
@@ -233,6 +233,20 @@ nmap <silent> <leader>gl :Git pull --rebase<cr>
 nmap <silent> <leader>gp :Git push<cr>
 nmap <silent> <leader>gs :Git stash<cr>
 nmap <silent> <leader>gsp :Git stash pop<cr>
+
+" Command-T mappings from G. Bernhardt
+map <leader>tv :CommandTFlush<cr>\|:CommandT app/views<cr>
+map <leader>tc :CommandTFlush<cr>\|:CommandT app/controllers<cr>
+map <leader>tm :CommandTFlush<cr>\|:CommandT app/models<cr>
+map <leader>th :CommandTFlush<cr>\|:CommandT app/helpers<cr>
+map <leader>tl :CommandTFlush<cr>\|:CommandT lib<cr>
+map <leader>tp :CommandTFlush<cr>\|:CommandT public<cr>
+map <leader>ts :CommandTFlush<cr>\|:CommandT public/stylesheets/sass<cr>
+map <leader>tf :CommandTFlush<cr>\|:CommandT features<cr>
+map <leader>tg :topleft 100 :split Gemfile<cr>
+map <leader>tt :CommandTFlush<cr>\|:CommandTTag<cr>
+map <leader>f :CommandTFlush<cr>\|:CommandT<cr>
+map <leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
 
 " Make the 'cw' and like commands put a $ at the end instead of just deleting
 " the text and replacing it
