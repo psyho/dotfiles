@@ -316,7 +316,7 @@ nmap <silent> <leader><leader> <c-^>
 nmap <silent> <leader>d :!mkdir -p %:h<cr>:w<cr>
 
 " solarized settings
-set background=dark
+set background=light
 let g:solarized_termtrans=1
 let g:solarized_termcolors=256
 let g:solarized_contrast="high"
