@@ -46,6 +46,9 @@ Bundle 'CSApprox'
 " Cofeescript support
 Bundle 'vim-coffee-script'
 
+" Clojure support
+Bundle 'VimClojure'
+
 " cucumber support
 Bundle 'tpope/vim-cucumber'
 
@@ -90,6 +93,9 @@ Bundle 'ruby.vim'
 
 " vim-ruby-refactoring - automatic refactorings for ruby
 Bundle 'ecomba/vim-ruby-refactoring'
+
+" Rainbow parentheses (for Clojure)
+Bundle 'rainbow_parentheses.vim'
 
 " A nice color scheme
 Bundle 'Solarized'
