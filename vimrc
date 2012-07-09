@@ -49,6 +49,9 @@ Bundle 'vim-coffee-script'
 " Clojure support
 Bundle 'VimClojure'
 
+" Coffeescript
+Bundle 'vim-coffee-script'
+
 " cucumber support
 Bundle 'tpope/vim-cucumber'
 
