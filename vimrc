@@ -43,6 +43,9 @@ Bundle 'The-NERD-Commenter'
 " csapprox - make gvim colorschemes work in console
 Bundle 'CSApprox'
 
+" Cofeescript support
+Bundle 'vim-coffee-script'
+
 " cucumber support
 Bundle 'tpope/vim-cucumber'
 
