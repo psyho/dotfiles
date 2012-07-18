@@ -215,10 +215,10 @@ au BufNewFile,BufRead *.md set filetype=markdown
 autocmd FileType c,cpp,java,php,javascript,html,ruby autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
 
 " Easy window navigation
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
+map <C-h> <C-w>h:wa<cr>
+map <C-j> <C-w>j:wa<cr>
+map <C-k> <C-w>k:wa<cr>
+map <C-l> <C-w>l:wa<cr>
 
 " syntastic
 set statusline+=%#warningmsg#
