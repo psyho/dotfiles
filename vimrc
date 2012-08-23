@@ -238,6 +238,9 @@ nmap <silent> <leader>le :set spelllang=en_us<CR>
 " ignore gems bundled in the project directory
 set wildignore+=vendor/gems,vendor/bundle
 
+" ignore target directory in clojure projects
+set wildignore+=target
+
 " some Git mappings
 nmap <silent> <leader>gt :Gstatus<cr>
 nmap <silent> <leader>gl :Git pull --rebase<cr>
