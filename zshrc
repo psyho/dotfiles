@@ -16,6 +16,8 @@ export JRUBY_OPTS="--1.9"
 export LC_CTYPE=en_US.UTF-8
 export LANG=en_US.UTF-8
 
+export BETDASH_SITE_URL='http://localhost:3000'
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 [[ -s "$HOME/.tmuxinator/scripts/tmuxinator" ]] && source "$HOME/.tmuxinator/scripts/tmuxinator"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
