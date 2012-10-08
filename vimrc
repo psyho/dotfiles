@@ -125,6 +125,9 @@ Bundle 'textobj-rubyblock'
 " zencoding-vim - plugin for expanding css-like syntax to html
 Bundle 'ZenCoding.vim'
 
+" LESS CSS syntax support
+Bundle "vim-less"
+
 "----------------------------------------------------------
 
 syntax enable                     " Turn on syntax highlighting.
