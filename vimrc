@@ -234,6 +234,9 @@ let g:syntastic_disabled_filetypes = ['eruby']
 let g:user_zen_expandabbr_key = '<c-e>' 
 let g:use_zen_complete_tag = 1
 
+" command-t
+let g:CommandTMaxFiles = 100000
+
 " spell-checking related shortcuts
 nmap <silent> <leader>lp :set spelllang=pl_pl<CR>
 nmap <silent> <leader>le :set spelllang=en_us<CR>
