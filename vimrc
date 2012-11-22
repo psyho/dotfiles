@@ -247,6 +247,9 @@ set wildignore+=vendor/gems,vendor/bundle
 " ignore target directory in clojure projects
 set wildignore+=target
 
+" ignore _deploy and output in nanoc sites
+set wildignore+=_deploy,output
+
 " some Git mappings
 nmap <silent> <leader>gt :Gstatus<cr>
 nmap <silent> <leader>gl :Git pull --rebase<cr>
