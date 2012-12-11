@@ -103,6 +103,9 @@ Bundle 'ecomba/vim-ruby-refactoring'
 " A nice color scheme
 Bundle 'Solarized'
 
+" Light table inspired color scheme
+Bundle 'chmllr/vim-colorscheme-elrodeo'
+
 " cuztomizable tab completion, continued is the newer version
 Bundle 'SuperTab-continued.'
 
