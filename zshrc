@@ -17,6 +17,7 @@ export LC_CTYPE=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 alias tmux='TERM=xterm-256color tmux'
+alias mux='TERM=xterm-256color mux'
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 [[ -s "$HOME/.tmuxinator/scripts/tmuxinator" ]] && source "$HOME/.tmuxinator/scripts/tmuxinator"
