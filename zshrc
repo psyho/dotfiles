@@ -41,3 +41,6 @@ eval "$(hub alias -s)"
 plugins=(bundler cap command-not-found deb gem git github rails3 ruby vi-mode ssh-agent)
 
 source $ZSH/oh-my-zsh.sh
+
+# for some reason, this is necessary to make the keybindings work properly
+source ~/dotfiles/oh-my-zsh/lib/key-bindings.zsh
