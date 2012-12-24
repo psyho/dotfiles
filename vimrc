@@ -373,6 +373,8 @@ let vimclojure#ParenRainbow=1
 let vimclojure#WantNailgun = 1
 let vimclojure#NailgunClient = $HOME . "/dotfiles/vimclojure-nailgun-client/ng"
 
+autocmd BufRead,BufNewFile *.cljs setlocal filetype=clojure
+
 " set some different setting for the diff mode
 if &diff
   colorscheme fu_patched " different scheme
