@@ -13,3 +13,6 @@
 [submodule "guake-colors-solarized"]
 	path = guake-colors-solarized
 	url = git://github.com/coolwanglu/guake-colors-solarized.git
+[submodule "mate-terminal-colors-solarized"]
+	path = mate-terminal-colors-solarized
+	url = git://github.com/michelefoga/mate-terminal-colors-solarized.git
