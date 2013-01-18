@@ -46,9 +46,6 @@ Bundle 'CSApprox'
 " Cofeescript support
 Bundle 'vim-coffee-script'
 
-" Clojure support
-Bundle 'VimClojure'
-
 " Coffeescript
 Bundle 'vim-coffee-script'
 
@@ -84,9 +81,6 @@ Bundle 'Markdown'
 
 " vim-matchit - better pair matching for the % command
 Bundle 'matchit.zip'
-
-" When editing lisp, keep parentheses balanced
-Bundle 'paredit.vim'
 
 " vim-rake - :Rake, :A, :R like in rails.vim, but without rails
 Bundle 'tpope/vim-rake'
@@ -366,17 +360,6 @@ set wildignore+=spec/cassettes
 
 " Use Node.js for JavaScript interpretation
 let $JS_CMD='node'
-
-" VimClojure configuration
-let vimclojure#FuzzyIndent=1
-let vimclojure#HighlightBuiltins=1
-let vimclojure#HighlightContrib=1
-let vimclojure#DynamicHighlighting=1
-let vimclojure#ParenRainbow=1
-let vimclojure#WantNailgun = 1
-let vimclojure#NailgunClient = $HOME . "/dotfiles/vimclojure-nailgun-client/ng"
-
-autocmd BufRead,BufNewFile *.cljs setlocal filetype=clojure
 
 " set some different setting for the diff mode
 if &diff
