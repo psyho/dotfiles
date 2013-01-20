@@ -130,6 +130,9 @@ Bundle "tpope/vim-foreplay"
 Bundle "tpope/vim-classpath"
 Bundle "guns/vim-clojure-static"
 
+" rainbow parentheses, mostly for clojure
+Bundle "kien/rainbow_parentheses.vim"
+
 "----------------------------------------------------------
 
 syntax enable                     " Turn on syntax highlighting.
@@ -258,6 +261,12 @@ nmap <silent> <leader>gl :Git pull --rebase<cr>
 nmap <silent> <leader>gp :Git push<cr>
 nmap <silent> <leader>gs :Git stash<cr>
 nmap <silent> <leader>gsp :Git stash pop<cr>
+
+" rainbow parentheses always on
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
 
 " Command-T mappings from G. Bernhardt
 map <leader>tv :CommandTFlush<cr>\|:CommandT app/views<cr>
