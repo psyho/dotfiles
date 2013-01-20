@@ -133,6 +133,9 @@ Bundle "guns/vim-clojure-static"
 " rainbow parentheses, mostly for clojure
 Bundle "kien/rainbow_parentheses.vim"
 
+" automatically close parens
+Bundle 'AutoClose'
+
 "----------------------------------------------------------
 
 syntax enable                     " Turn on syntax highlighting.
@@ -287,7 +290,7 @@ map <leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <leader>s :call RunTestFile()<cr>
 map <leader>S :call RunNearestTest()<cr>
-map <leader>a :call RunTests('')<cr>
+map <leader>A :call RunTests('')<cr>
 " map <leader>c :w\|:!script/features<cr>
 " map <leader>w :w\|:!script/features --profile wip<cr>
 
