@@ -98,7 +98,7 @@ Bundle 'ecomba/vim-ruby-refactoring'
 Bundle 'Solarized'
 
 " Light table inspired color scheme
-Bundle 'chmllr/vim-colorscheme-elrodeo'
+" Bundle 'chmllr/vim-colorscheme-elrodeo'
 
 " cuztomizable tab completion, continued is the newer version
 Bundle 'SuperTab-continued.'
@@ -124,6 +124,11 @@ Bundle 'ZenCoding.vim'
 
 " LESS CSS syntax support
 Bundle "vim-less"
+
+" Clojure development plugins
+Bundle "tpope/vim-foreplay"
+Bundle "tpope/vim-classpath"
+Bundle "guns/vim-clojure-static"
 
 "----------------------------------------------------------
 
