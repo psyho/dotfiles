@@ -271,6 +271,9 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
+" Don't indent midje facts
+let g:clojure_fuzzy_indent_patterns = ['^with', '^def', '^let', 'fact']
+
 " Command-T mappings from G. Bernhardt
 map <leader>tv :CommandTFlush<cr>\|:CommandT app/views<cr>
 map <leader>tc :CommandTFlush<cr>\|:CommandT app/controllers<cr>
