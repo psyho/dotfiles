@@ -8,7 +8,6 @@ export ZSH_THEME="gallois"
 export PATH=~/scripts:$PATH
 
 export EDITOR=vim
-export CC=gcc-4.2
 
 export RBXOPT=-X19
 export JRUBY_OPTS="--1.9"
