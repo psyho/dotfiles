@@ -16,3 +16,6 @@
 [submodule "mate-terminal-colors-solarized"]
 	path = mate-terminal-colors-solarized
 	url = git://github.com/michelefoga/mate-terminal-colors-solarized.git
+[submodule "oh-my-fish"]
+	path = oh-my-fish
+	url = git://github.com/bpinto/oh-my-fish.git
