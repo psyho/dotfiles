@@ -209,6 +209,8 @@ set matchpairs+=<:>               " add < and > to the chars that can be navigat
 set spell                         " enable spell check
 set spelllang=en_us               " default spell check language
 
+set shell=/bin/bash
+
 " Useful status information at bottom of screen
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
@@ -274,19 +276,11 @@ au Syntax * RainbowParenthesesLoadBraces
 " Don't indent midje facts
 let g:clojure_fuzzy_indent_patterns = ['^with', '^def', '^let', 'fact']
 
-" Command-T mappings from G. Bernhardt
-map <leader>tv :CommandTFlush<cr>\|:CommandT app/views<cr>
-map <leader>tc :CommandTFlush<cr>\|:CommandT app/controllers<cr>
-map <leader>tm :CommandTFlush<cr>\|:CommandT app/models<cr>
-map <leader>th :CommandTFlush<cr>\|:CommandT app/helpers<cr>
-map <leader>tl :CommandTFlush<cr>\|:CommandT lib<cr>
-map <leader>tp :CommandTFlush<cr>\|:CommandT public<cr>
-map <leader>ts :CommandTFlush<cr>\|:CommandT public/stylesheets/sass<cr>
-map <leader>tf :CommandTFlush<cr>\|:CommandT features<cr>
+map <leader>tsj :CommandTFlush<cr>\|:CommandT spec/javascripts<cr>
+map <leader>tj :CommandTFlush<cr>\|:CommandT app/assets/javascripts<cr>
 map <leader>tg :topleft 100 :split Gemfile<cr>
 map <leader>tt :CommandTFlush<cr>\|:CommandTTag<cr>
 map <leader>f :CommandTFlush<cr>\|:CommandT<cr>
-map <leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " RUNNING TESTS

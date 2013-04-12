@@ -3,7 +3,7 @@ export ZSH=$HOME/dotfiles/oh-my-zsh
 
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
-export ZSH_THEME="gallois"
+export ZSH_THEME="mgutz"
 
 export PATH=~/scripts:$PATH
 
@@ -40,7 +40,7 @@ eval "$(hub alias -s)"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(cap command-not-found deb git github vi-mode ssh-agent)
+plugins=(command-not-found ssh-agent rvm)
 
 source $ZSH/oh-my-zsh.sh
 
