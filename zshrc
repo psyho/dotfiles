@@ -24,7 +24,7 @@ alias be='bundle exec'
 [[ -s "$HOME/.tmuxinator/scripts/tmuxinator" ]] && source "$HOME/.tmuxinator/scripts/tmuxinator"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
-eval "$(hub alias -s)"
+# eval "$(hub alias -s)"
 
 # Set to this to use case-sensitive completion
 # export CASE_SENSITIVE="true"

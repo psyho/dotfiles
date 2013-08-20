@@ -59,7 +59,7 @@ Bundle 'd.vim'
 Bundle 'greplace.vim'
 
 " jslint .js files automatically
-Bundle 'jslint.vim'
+"Bundle 'jslint.vim'
 
 " syntastic - plugin for displaying syntax errors
 Bundle 'Syntastic'
@@ -137,7 +137,7 @@ Bundle "guns/vim-clojure-static"
 Bundle "kien/rainbow_parentheses.vim"
 
 " automatically close parens
-Bundle 'AutoClose'
+" "Bundle 'AutoClose'
 
 "----------------------------------------------------------
 
@@ -373,6 +373,7 @@ colorscheme solarized
 
 " don't search coverage reports and vcr cassettes
 set wildignore+=spec/reports
+set wildignore+=test/reports
 set wildignore+=spec/cassettes
 
 " Use Node.js for JavaScript interpretation
