@@ -112,7 +112,7 @@ Bundle 'surround.vim'
 " Snipmate - the new version
 Bundle "git://github.com/MarcWeber/vim-addon-mw-utils.git"
 Bundle "git://github.com/tomtom/tlib_vim.git"
-Bundle "git://github.com/honza/snipmate-snippets.git"
+Bundle "git://github.com/scrooloose/snipmate-snippets.git"
 
 Bundle "git://github.com/garbas/vim-snipmate.git"
 
