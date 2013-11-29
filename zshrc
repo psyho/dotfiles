@@ -46,3 +46,6 @@ source $ZSH/oh-my-zsh.sh
 
 # for some reason, this is necessary to make the keybindings work properly
 source ~/dotfiles/oh-my-zsh/lib/key-bindings.zsh
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
