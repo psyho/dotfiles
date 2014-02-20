@@ -62,7 +62,7 @@ Bundle 'greplace.vim'
 "Bundle 'jslint.vim'
 
 " syntastic - plugin for displaying syntax errors
-Bundle 'Syntastic'
+Bundle 'scrooloose/syntastic'
 
 " vim-endwise - wisely add 'end' in ruby
 Bundle 'endwise.vim'
