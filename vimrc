@@ -128,6 +128,9 @@ Bundle 'ZenCoding.vim'
 " LESS CSS syntax support
 Bundle "vim-less"
 
+" Slim templates
+Bundle 'slim-template/vim-slim.git'
+
 " Clojure development plugins
 Bundle "tpope/vim-foreplay"
 Bundle "tpope/vim-classpath"
@@ -212,7 +215,7 @@ set matchpairs+=<:>               " add < and > to the chars that can be navigat
 set spell                         " enable spell check
 set spelllang=en_us               " default spell check language
 
-set shell=/bin/bash
+set shell=/bin/zsh
 
 " Useful status information at bottom of screen
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
