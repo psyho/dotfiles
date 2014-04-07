@@ -40,7 +40,7 @@
   tool = vimdiff
 [user]
 	name = Adam Pohorecki
-	email = adam.pohorecki@llp.pl
+	email = adam@pohorecki.pl
 [color]
 	ui = auto
 [push]
