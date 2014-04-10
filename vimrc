@@ -68,10 +68,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'endwise.vim'
 
 " vim-fugitive - vim-git integration
-Bundle 'fugitive.vim'
-
-" vim-git - a couple more basic commands to work with git
-Bundle 'tpope/vim-git'
+Bundle 'tpope/vim-fugitive'
 
 " vim-bundler to include gems from Gemfile.lock in ctags
 Bundle 'tpope/vim-bundler'
