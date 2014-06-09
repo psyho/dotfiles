@@ -1,4 +1,4 @@
-"==========================================================
+  "==========================================================
 "
 " Psyho's .vimrc
 "
@@ -44,9 +44,6 @@ Bundle 'The-NERD-Commenter'
 Bundle 'CSApprox'
 
 " Cofeescript support
-Bundle 'vim-coffee-script'
-
-" Coffeescript
 Bundle 'vim-coffee-script'
 
 " cucumber support
