@@ -119,11 +119,11 @@ Bundle 'textobj-user'
 " vim-textobj-rubyblock - allow selecting blocks in ruby as text objects
 Bundle 'textobj-rubyblock'
 
-" zencoding-vim - plugin for expanding css-like syntax to html
-Bundle 'ZenCoding.vim'
+" Emmet/zencoding - plugin for expanding css-like syntax to html
+Bundle "mattn/emmet-vim"
 
 " LESS CSS syntax support
-Bundle "vim-less"
+Bundle 'groenewege/vim-less'
 
 " Slim templates
 Bundle 'slim-template/vim-slim.git'
@@ -243,9 +243,8 @@ set statusline+=%*
 let g:syntastic_enable_signs=1
 let g:syntastic_disabled_filetypes = ['eruby']
 
-" zencoding-vim
-let g:user_zen_expandabbr_key = '<c-e>' 
-let g:use_zen_complete_tag = 1
+" Emmet
+let g:user_emmet_leader_key='<C-E>'
 
 " command-t
 let g:CommandTMaxFiles = 100000
