@@ -33,7 +33,7 @@ Plugin 'AutomaticTexPlugin'
 Plugin 'Better-Javascript-Indentation'
 
 " CSS
-Plugin 'Better-CSS-Syntax-for-Vim'
+Plugin 'JulesWang/css.vim'
 
 " Fuzzy file searching
 Plugin 'wincent/Command-T'
