@@ -124,8 +124,7 @@ Plugin 'groenewege/vim-less'
 Plugin 'slim-template/vim-slim.git'
 
 " Clojure development plugins
-Plugin 'tpope/vim-foreplay'
-Plugin 'tpope/vim-classpath'
+Plugin 'tpope/vim-fireplace'
 Plugin 'guns/vim-clojure-static'
 
 " rainbow parentheses, mostly for clojure
