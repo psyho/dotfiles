@@ -345,8 +345,8 @@ nmap <silent> <leader><leader> <c-^>
 " create directory for current file
 nmap <silent> <leader>d :!mkdir -p %:h<cr>:w<cr>
 
-nmap <silent> <LocalLeader>f :Ggrep <c-r><c-w> **/*rb<cr>
-nmap <silent> <LocalLeader>F :Ggrep <c-r><c-a> **/*rb<cr>
+nmap <silent> <LocalLeader>f :Ggrep <c-r><c-w> **/*<cr>
+nmap <silent> <LocalLeader>F :Ggrep <c-r><c-a> **/*<cr>
 
 " solarized settings
 set background=light
