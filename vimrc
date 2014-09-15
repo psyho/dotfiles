@@ -247,7 +247,7 @@ nmap <silent> <leader>lp :set spelllang=pl_pl<CR>
 nmap <silent> <leader>le :set spelllang=en_us<CR>
 
 " ignore gems bundled in the project directory
-set wildignore+=vendor/gems,vendor/bundle
+set wildignore+=vendor/gems,vendor/bundle,node_modules,public/bower
 
 " ignore target directory in clojure projects
 set wildignore+=target
