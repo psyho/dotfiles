@@ -37,7 +37,7 @@
   l = "!bash -c 'source ~/.githelpers && pretty_git_log'"
   la = !git l --all
 [merge]
-  tool = vimdiff
+	tool = vimdiff
 [user]
 	name = Adam Pohorecki
 	email = adam@pohorecki.pl
@@ -49,3 +49,5 @@
 	recursesubmodules = true
 [github]
 	user = psyho
+[diff]
+	tool = vimdiff

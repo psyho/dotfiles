@@ -373,9 +373,3 @@ set wildignore+=spec/cassettes
 
 " Use Node.js for JavaScript interpretation
 let $JS_CMD='node'
-
-" set some different setting for the diff mode
-if &diff
-  colorscheme fu_patched " different scheme
-  set nonumber " no line numbers
-endif
