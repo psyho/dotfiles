@@ -123,6 +123,9 @@ Plugin 'groenewege/vim-less'
 " Slim templates
 Plugin 'slim-template/vim-slim.git'
 
+" Jade templates
+Plugin 'digitaltoad/vim-jade'
+
 " Clojure development plugins
 Plugin 'tpope/vim-fireplace'
 Plugin 'guns/vim-clojure-static'
