@@ -376,3 +376,6 @@ set wildignore+=spec/cassettes
 
 " Use Node.js for JavaScript interpretation
 let $JS_CMD='node'
+
+" Look for tags in gems.tags
+set tags+=gems.tags
