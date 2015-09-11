@@ -32,6 +32,9 @@ Plugin 'AutomaticTexPlugin'
 " javascript indentation in vim sucks
 Plugin 'Better-Javascript-Indentation'
 
+" javascript syntax plugin
+Plugin 'othree/yajs'
+
 " CSS
 Plugin 'JulesWang/css.vim'
 
@@ -226,6 +229,9 @@ au BufNewFile,BufRead *.md set filetype=markdown
 " map .sjs files to javascript
 au BufNewFile,BufRead *.sjs set filetype=javascript
 
+" map .es6 files to javascript
+au BufNewFile,BufRead *.es6 set filetype=javascript
+
 " automatically strip trailing whitespace for some file types
 autocmd FileType c,cpp,java,php,javascript,html,ruby autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
 
@@ -253,7 +259,7 @@ nmap <silent> <leader>lp :set spelllang=pl_pl<CR>
 nmap <silent> <leader>le :set spelllang=en_us<CR>
 
 " ignore gems bundled in the project directory
-set wildignore+=vendor/gems,vendor/bundle,node_modules,public/bower
+set wildignore+=vendor/gems,vendor/bundle,node_modules,public/bower,dev,resources/public/js/out,tmp/specs
 
 " ignore target directory in clojure projects
 set wildignore+=target
