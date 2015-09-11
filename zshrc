@@ -7,6 +7,8 @@ export ZSH_THEME="mgutz"
 
 export PATH=~/scripts:$PATH
 export PATH="/usr/local/heroku/bin:$PATH"
+export PATH=~/android-sdk-linux/tools:$PATH
+export PATH=~/android-sdk-linux/platform-tools:$PATH
 
 export EDITOR=vim
 
@@ -18,8 +20,8 @@ export LANG=en_US.UTF-8
 
 export DISABLE_AUTO_TITLE=true
 
-alias tmux='TERM=xterm-256color tmux'
-alias mux='TERM=xterm-256color mux'
+alias tmux='TERM=xterm-256color DISPLAY=:0 tmux'
+alias mux='TERM=xterm-256color DISPLAY=:0 mux'
 alias bi='bundle install'
 alias be='bundle exec'
 
