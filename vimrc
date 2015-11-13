@@ -16,7 +16,7 @@ set nocompatible                  " Must come first because it changes other opt
 filetype off                      " required by Vundle
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/vundle.git
 call vundle#begin()
 
 " let Vundle manage Vundle
