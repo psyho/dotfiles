@@ -16,11 +16,11 @@ set nocompatible                  " Must come first because it changes other opt
 filetype off                      " required by Vundle
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/vundle.git
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
 "----------------------------------------------------------
 " PLUGINS
@@ -99,7 +99,7 @@ Plugin 'ecomba/vim-ruby-refactoring'
 Plugin 'Solarized'
 
 " cuztomizable tab completion, continued is the newer version
-Plugin 'SuperTab-continued.'
+Plugin 'SuperTab--Van-Dewoestine'
 
 " vim-surround - surrounding text with braces, quotes, html tags...
 Plugin 'surround.vim'
