@@ -80,6 +80,9 @@ Plugin 'Markdown'
 " vim-matchit - better pair matching for the % command
 Plugin 'matchit.zip'
 
+" for vim-rake
+Plugin 'tpope/vim-projectionist'
+
 " vim-rake - :Rake, :A, :R like in rails.vim, but without rails
 Plugin 'tpope/vim-rake'
 
@@ -359,6 +362,8 @@ nmap <silent> <leader>d :!mkdir -p %:h<cr>:w<cr>
 
 nmap <silent> <LocalLeader>f :Ggrep <c-r><c-w> **/*<cr>
 nmap <silent> <LocalLeader>F :Ggrep <c-r><c-a> **/*<cr>
+
+nmap <silent> <C-R> :redo<cr>
 
 " solarized settings
 set background=light
