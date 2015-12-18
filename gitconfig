@@ -43,11 +43,11 @@
 	email = adam@pohorecki.pl
 [color]
 	ui = auto
-[push]
-	default = matching
 [fetch]
 	recursesubmodules = true
 [github]
 	user = psyho
 [diff]
 	tool = vimdiff
+[push]
+	default = simple
