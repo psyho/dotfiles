@@ -53,3 +53,5 @@
 	tool = vimdiff
 [push]
 	default = simple
+[core]
+	excludesfile = /home/psyho/.gitignore_global
