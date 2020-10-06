@@ -25,9 +25,8 @@ alias mux='TERM=xterm-256color DISPLAY=:0 mux'
 alias bi='bundle install'
 alias be='bundle exec'
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 [[ -s "$HOME/.tmuxinator/scripts/tmuxinator" ]] && source "$HOME/.tmuxinator/scripts/tmuxinator"
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=$PATH:$HOME/.rbenv/bin
 
 # eval "$(hub alias -s)"
 
@@ -45,7 +44,7 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(command-not-found ssh-agent rvm)
+plugins=(command-not-found ssh-agent rvm rbenv gcloud nvm)
 
 source $ZSH/oh-my-zsh.sh
 
