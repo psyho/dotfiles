@@ -1,18 +1,6 @@
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
-	url = git://github.com/robbyrussell/oh-my-zsh.git
-[submodule "konsole-colors-solarized"]
-	path = konsole-colors-solarized
-	url = git://github.com/phiggins/konsole-colors-solarized.git
-[submodule "gnome-terminal-colors-solarized"]
-	path = gnome-terminal-colors-solarized
-	url = git://github.com/sigurdga/gnome-terminal-colors-solarized.git
-[submodule "guake-colors-solarized"]
-	path = guake-colors-solarized
-	url = git://github.com/coolwanglu/guake-colors-solarized.git
-[submodule "mate-terminal-colors-solarized"]
-	path = mate-terminal-colors-solarized
-	url = git://github.com/michelefoga/mate-terminal-colors-solarized.git
+	url = git://github.com/ohmyzsh/ohmyzsh.git
 [submodule "vim/bundle/Vundle.vim"]
 	path = vim/bundle/Vundle.vim
 	url = https://github.com/VundleVim/Vundle.vim.git

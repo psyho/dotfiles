@@ -44,7 +44,7 @@ PATH=$PATH:$HOME/.rbenv/bin
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(command-not-found ssh-agent rvm rbenv gcloud nvm)
+plugins=(command-not-found ssh-agent gcloud asdf)
 
 source $ZSH/oh-my-zsh.sh
 
