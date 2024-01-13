@@ -22,8 +22,6 @@ export DISABLE_AUTO_TITLE=true
 
 alias tmux='TERM=xterm-256color DISPLAY=:0 tmux'
 alias mux='TERM=xterm-256color DISPLAY=:0 mux'
-alias bi='bundle install'
-alias be='bundle exec'
 
 [[ -s "$HOME/.tmuxinator/scripts/tmuxinator" ]] && source "$HOME/.tmuxinator/scripts/tmuxinator"
 PATH=$PATH:$HOME/.rbenv/bin
@@ -44,7 +42,7 @@ PATH=$PATH:$HOME/.rbenv/bin
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(command-not-found ssh-agent gcloud asdf)
+plugins=(command-not-found ssh-agent gcloud asdf bundler)
 
 source $ZSH/oh-my-zsh.sh
 
