@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh configuration.
-export ZSH=$HOME/dotfiles/oh-my-zsh
+export ZSH=$HOME/ohmyzsh
 
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -49,4 +49,4 @@ plugins=(command-not-found ssh-agent gcloud asdf)
 source $ZSH/oh-my-zsh.sh
 
 # for some reason, this is necessary to make the keybindings work properly
-source ~/dotfiles/oh-my-zsh/lib/key-bindings.zsh
+source ~/ohmyzsh/lib/key-bindings.zsh
