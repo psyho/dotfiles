@@ -22,6 +22,7 @@ export DISABLE_AUTO_TITLE=true
 
 alias tmux='TERM=xterm-256color DISPLAY=:0 tmux'
 alias mux='TERM=xterm-256color DISPLAY=:0 mux'
+alias gcm='git checkout main'
 
 [[ -s "$HOME/.tmuxinator/scripts/tmuxinator" ]] && source "$HOME/.tmuxinator/scripts/tmuxinator"
 PATH=$PATH:$HOME/.rbenv/bin
