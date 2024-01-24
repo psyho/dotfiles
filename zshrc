@@ -9,6 +9,8 @@ export PATH=~/scripts:$PATH
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH=~/android-sdk-linux/tools:$PATH
 export PATH=~/android-sdk-linux/platform-tools:$PATH
+export PATH=/snap/bin:$PATH
+export PATH=~/renofi/toolbox/bin:$PATH
 
 export EDITOR=vim
 
